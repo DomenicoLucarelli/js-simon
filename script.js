@@ -3,7 +3,7 @@ let btnEl = document.getElementById('btn');
 let timerEl = document.getElementById('timer');
 let inputContainerEl = document.getElementById('input-container')
 let resultEl = document.getElementById('result');
-let time = 10;
+let time = 1;
 
 let numbers = generateNumbers(1,100);
 console.log(numbers);
@@ -41,7 +41,7 @@ btnEl.addEventListener('click' , function(){
     }
 
 
-    resultEl.innerHTML = `Hai indovinato ${index} numero/i : ${rightNumbers}`
+    resultEl.innerHTML = `Hai indovinato ${index} numero/i : ${rightNumbers.join(' - ')}`
     
 })
 
