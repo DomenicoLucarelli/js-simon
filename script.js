@@ -30,7 +30,7 @@ btnEl.addEventListener('click' , function(){
     
     for(i= 0 ; i<5; i++){
 
-        if(numbers.includes(parseInt(userNumbers[i].value))){
+        if((numbers.includes(parseInt(userNumbers[i].value ))) && !(rightNumbers.includes(parseInt(userNumbers[i].value)))){
 
             rightNumbers.push(parseInt(userNumbers[i].value))
 
