@@ -3,7 +3,7 @@ let btnEl = document.getElementById('btn');
 let timerEl = document.getElementById('timer');
 let inputContainerEl = document.getElementById('input-container')
 let resultEl = document.getElementById('result');
-let time = 1;
+let time = 10;
 
 let numbers = generateNumbers(1,100);
 console.log(numbers);
